@@ -1,0 +1,22 @@
+get student details by id *  /student/{id}
+show all students *  /students
+get student's course through student id *  /studentcourse/{id}
+get student's department through student id * /studentdepartment/{id}
+get student's grade through student id *  /studentgrade/{id}
+get all grade of students in a certain section  
+
+show all courses * /courses
+get all students' course * /studentcourseall
+get department of certain course through course id  * /departmentofcourse/{id}
+get all student in certain course through course id  * /studentscourse/{id}
+
+show all departments * /departments
+get all students in certain department * /studentsdepartment{id}
+get all courses in department *  /coursesdepartment
+
+show all sections * /sections
+get all sections from certain department through department code *  /sectionsdepartment/{id}
+get students in certain section through section num * / studentssection/{id}
+
+show all grade reports * /studentgradeall
+get all reports that are below 75 * / gradereportsbelow
